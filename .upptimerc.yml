@@ -11,24 +11,8 @@ sites:
     expectedStatusCodes:
       - 200
 
-  - name: API SMS
+  - name: API
     url: https://platform-demo.net/api/benchmark/health
-    expectedStatusCodes:
-      - 200
-
-  - name: API WhatsApp
-    url: https://platform-demo.net/api/whatsapp/health
-    expectedStatusCodes:
-      - 200
-      - 401
-
-  - name: API RCS
-    url: https://platform-demo.net/api/rcs-conversation/webhook/health
-    expectedStatusCodes:
-      - 200
-
-  - name: API Voice
-    url: https://platform-demo.net/health
     expectedStatusCodes:
       - 200
 
