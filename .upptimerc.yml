@@ -1,0 +1,66 @@
+# Upptime Configuration - WS Instance
+# https://upptime.js.org/docs/configuration
+
+owner: agonzaji
+repo: status-ws
+
+sites:
+  - name: Platform
+    url: https://platform-demo.net/api/health
+    icon: https://platform-demo.net/images/logo-icon.png
+    expectedStatusCodes:
+      - 200
+
+  - name: API SMS
+    url: https://platform-demo.net/api/benchmark/health
+    expectedStatusCodes:
+      - 200
+
+  - name: API WhatsApp
+    url: https://platform-demo.net/api/whatsapp/health
+    expectedStatusCodes:
+      - 200
+      - 401
+
+  - name: API RCS
+    url: https://platform-demo.net/api/rcs-conversation/webhook/health
+    expectedStatusCodes:
+      - 200
+
+  - name: API Voice
+    url: https://platform-demo.net/api/health
+    expectedStatusCodes:
+      - 200
+
+status-website:
+  cname: status.platform-demo.net
+  logoUrl: https://platform-demo.net/images/logo.png
+  name: MasOrange Platform Status
+  introTitle: "Platform Status"
+  introMessage: "Real-time status of MasOrange Platform services."
+  navbar:
+    - title: Platform
+      href: https://platform-demo.net
+    - title: Support
+      href: https://platform-demo.net/tickets.html
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  uptime: "*/5 * * * *"
+
+commitMessages:
+  commitAuthorName: "Upptime Bot"
+  commitAuthorEmail: "upptime@masorange.es"
+
+i18n:
+  activeIncidents: "Active Incidents"
+  allSystemsOperational: "All Systems Operational"
+  incidentReport: "Incident Report"
+  pastIncidents: "Past Incidents"
+  scheduledMaintenance: "Scheduled Maintenance"
+  responseTime: "Response Time"
+  uptime: "Uptime"
