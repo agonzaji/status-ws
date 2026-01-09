@@ -6,7 +6,7 @@ repo: status-ws
 
 sites:
   - name: Platform
-    url: https://platform-demo.net/api/health
+    url: https://platform-demo.net/health
     icon: https://platform-demo.net/images/logo-icon.png
     expectedStatusCodes:
       - 200
@@ -28,7 +28,7 @@ sites:
       - 200
 
   - name: API Voice
-    url: https://platform-demo.net/api/health
+    url: https://platform-demo.net/health
     expectedStatusCodes:
       - 200
 
