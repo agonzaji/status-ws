@@ -6,27 +6,27 @@ repo: status-ws
 
 sites:
   - name: Platform
-    url: https://platform-demo.net/health
-    icon: https://platform-demo.net/images/logo-icon.png
+    url: https://masorange-wholesale.messaging-platform.com/health
+    icon: https://masorange-wholesale.messaging-platform.com/images/logo-icon.png
     expectedStatusCodes:
       - 200
 
   - name: API
-    url: https://platform-demo.net/api/benchmark/health
+    url: https://masorange-wholesale.messaging-platform.com/api/benchmark/health
     expectedStatusCodes:
       - 200
 
 status-website:
-  # cname: status.platform-demo.net  # TODO: Enable when domain transfer completes
-  logoUrl: https://platform-demo.net/images/logo.png
+  # cname: status.masorange-wholesale.messaging-platform.com  # TODO: Enable when domain transfer completes
+  logoUrl: https://masorange-wholesale.messaging-platform.com/images/logo.png
   name: MasOrange Platform Status
   introTitle: "Platform Status"
   introMessage: "Real-time status of MasOrange Platform services."
   navbar:
     - title: Platform
-      href: https://platform-demo.net
+      href: https://masorange-wholesale.messaging-platform.com
     - title: Support
-      href: https://platform-demo.net/tickets.html
+      href: https://masorange-wholesale.messaging-platform.com/tickets.html
 
 workflowSchedule:
   graphs: "0 0 * * *"
