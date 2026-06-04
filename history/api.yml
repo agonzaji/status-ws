@@ -1,7 +1,7 @@
 url: https://masorange-wholesale.messaging-platform.com/api/benchmark/health
 status: down
-code: 403
-responseTime: 140
-lastUpdated: 2026-06-03T23:32:04.328Z
+code: 401
+responseTime: 129
+lastUpdated: 2026-06-04T23:25:12.908Z
 startTime: 2026-01-09T22:34:14.047Z
 generator: Upptime <https://github.com/upptime/upptime>
